@@ -16,6 +16,7 @@ var server = http.createServer(app);
 var log = console.log;
 
 app.configure(function(){
+  app.set('port', process.env.PORT || 8080);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
   app.use(express.favicon());
@@ -44,8 +45,8 @@ app.post('/test', routes.test);
 
 
 
-server.listen(process.env.PORT, function(){
-  console.log("Express server listening on port " + app.get('port'));
+server.listen(app.get('port'), function(){
+  console.log("Express server listening on port " + process.env.PORT);
   //db.collection('dudley').find().toArray(function(err, items){
     //    console.dir(items);
   //});

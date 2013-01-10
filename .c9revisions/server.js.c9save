@@ -84,3 +84,10 @@
 {"ts":1357849472169,"patch":[[{"diffs":[[0,"   });\n    \n"],[1,"    socket.on('disconnect', functionn(){\n        log('disconnected');\n    })\n"],[0,"    \n});\n\n\n\n"]],"start1":1643,"start2":1643,"length1":24,"length2":101}]],"length":1757,"saved":false}
 {"ts":1357849478933,"patch":[[{"diffs":[[0,"function"],[-1,"n"],[0,"(){\n    "]],"start1":1683,"start2":1683,"length1":17,"length2":16}]],"length":1756,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1357854672977,"patch":[[{"diffs":[[0,"g);\n        "],[1,"//"],[0,"socket.broad"]],"start1":1590,"start2":1590,"length1":24,"length2":26}]],"length":1758,"saved":false}
+{"ts":1357859349113,"patch":[[{"diffs":[[0,"function(){\n"],[1,"app.set('port', process.env.PORT || 8080);\n"],[0,"  app.set('v"]],"start1":421,"start2":421,"length1":24,"length2":67}]],"length":1801,"saved":false}
+{"ts":1357859352221,"patch":[[{"diffs":[[0,"tion(){\n"],[1,"  "],[0,"app.set("]],"start1":425,"start2":425,"length1":16,"length2":18}]],"length":1803,"saved":false}
+{"ts":1357859366127,"patch":[[{"diffs":[[0,".listen("],[-1,"process.env.PORT"],[1,"'port'"],[0,", functi"]],"start1":1166,"start2":1166,"length1":32,"length2":22}]],"length":1793,"saved":false}
+{"ts":1357859437828,"patch":[[{"diffs":[[0,".listen("],[-1,"'"],[1,"app."],[0,"port"],[-1,"'"],[0,", functi"]],"start1":1166,"start2":1166,"length1":22,"length2":24}]],"length":1795,"saved":false}
+{"ts":1357859474986,"patch":[[{"diffs":[[0,"ten(app."],[1,"get('"],[0,"port"],[1,"')"],[0,", functi"]],"start1":1170,"start2":1170,"length1":20,"length2":27}]],"length":1802,"saved":false}
+{"ts":1357861838980,"patch":[[{"diffs":[[0,"ort \" + "],[-1,"app.get('port'"],[1,"process.env.PORT"],[0,"));\n  //"]],"start1":1247,"start2":1247,"length1":30,"length2":32}]],"length":1804,"saved":false}
+{"ts":1357861848020,"patch":[[{"diffs":[[0,"nv.PORT)"],[-1,")"],[0,";\n  //db"]],"start1":1264,"start2":1264,"length1":17,"length2":16}]],"length":1803,"saved":false}
