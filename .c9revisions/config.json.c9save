@@ -1,0 +1,2 @@
+{"ts":1357856788789,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1357856801922,"patch":[[{"diffs":[[1,"{\r\n  \"version\": \"v0.6.11\",\r\n  \"npm\": false,\r\n  \"main\": \"server.js\",\r\n  \"args\": [\"Hello NodeNinja\"],\r\n  \"envs\": {\"listenport\": \"8080\"}\r\n}"]],"start1":0,"start2":0,"length1":0,"length2":136}]],"length":136,"saved":false}
