@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>管理者登録</p>
+    <form id="searchForm">
+    メアド<input id="mailAddress" type="text" value="">
+    <br />
+    パスワード<input id="password" type="password" value="">
+    <input id="searchSubmit" type="submit"">
+    </form>
+    <a href="/test">link to test</a>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var log = function(){ console.log(arguments);};
+        var socket = io.connect('http://app1.hetima.c9.io/', {rememberTransport:false});
+        socket.on('connect', function(){
+            log('connected');
+            $("#show").append('接続しました' + '<br>');
+            socket.emit('msg send', 'data');
+            $("#show").append('メッセージを送りました' + '<br>');
+            socket.on('msg push', function(msg){
+            $("#show").append('メッセージを受信しました' + '<br>');
+            $("#show").append(msg + '<br>');
+            log(msg); 
+            });
+        });     
+    </script>
+    <div id="show"></div>
+  </body>
+</html>
