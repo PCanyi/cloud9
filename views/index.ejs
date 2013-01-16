@@ -17,8 +17,10 @@
     <a href="/test">link to test</a>
     <script src="/socket.io/socket.io.js"></script>
     <script>
+        var server = '192.168.0.6';
+        #var server = 'http://app1.hetima.c9.io/';
         var log = function(){ console.log(arguments);};
-        var socket = io.connect('http://app1.hetima.c9.io/', {rememberTransport:false});
+        var socket = io.connect(server, {rememberTransport:false});
         socket.on('connect', function(){
             log('connected');
             $("#show").append('接続しました' + '<br>');

@@ -55,3 +55,7 @@
 {"ts":1357854539405,"patch":[[{"diffs":[[0,"', 'data');\n"],[1,"            $(\"#show\").append('メッセージを送りました' + '<br>');\n"],[0,"            "]],"start1":904,"start2":904,"length1":24,"length2":79}]],"length":1178,"saved":false}
 {"ts":1357854551394,"patch":[[{"diffs":[[0,"n(msg){\n"],[1,"        \n"],[0,"        "]],"start1":1012,"start2":1012,"length1":16,"length2":25}]],"length":1187,"saved":false}
 {"ts":1357854565830,"patch":[[{"diffs":[[0,"g){\n        "],[1,"    $(\"#show\").append('メッセージを受信しました' + '<br>');"],[0,"\n           "]],"start1":1016,"start2":1016,"length1":24,"length2":71}]],"length":1234,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1358301247919,"patch":[[{"diffs":[[0,"   <script>\n"],[1,"        var server = '';\n"],[0,"        var "]],"start1":593,"start2":593,"length1":24,"length2":49}]],"length":1259,"saved":false}
+{"ts":1358301256785,"patch":[[{"diffs":[[0,"ect("],[-1,"'http://app1.hetima.c9.io/'"],[1,"server"],[0,", {r"]],"start1":714,"start2":714,"length1":35,"length2":14}]],"length":1238,"saved":false}
+{"ts":1358301258867,"patch":[[{"diffs":[[0,"rver = '"],[1,"http://app1.hetima.c9.io/"],[0,"';\n     "]],"start1":619,"start2":619,"length1":16,"length2":41}]],"length":1263,"saved":false}
+{"ts":1358301511238,"patch":[[{"diffs":[[0,"server ="],[1," '192.168.0.6';\n        #var server ="],[0," 'http:/"]],"start1":617,"start2":617,"length1":16,"length2":53}]],"length":1300,"saved":false}
